@@ -1,0 +1,17 @@
+= Finalisation
+
+Pas d'objectif aujourd'hui 😁 Ca veut pas dire, qu'on allume la playstation ! L'idée est de prendre le temps de revoir tout son code, revoir les tests écris, et de faire un peu de refactoring.
+
+Dans un second temps, tu peux ajouter des fonctionnalité au front comme :
+
+- La navigation vers le mois précédent et suivant
+- L'initialisation du Dashboard avec le mois courant par défaut
+- La vue liste
+- La vue ajout
+- ...
+
+💡 Il n'y aura pas de correction 😉
+
+== Objectifs pédagogiques
+
+* *Implémenter* les fonctionnalités en TDD

@@ -1,0 +1,20 @@
+= Tests d'intégration
+
+Maintenant qu'on a tout atomisé, on va pouvoir se créer des molécules. Oups, c'est pas un cours de chimie 😬
+Les unités de codes sont propres et fiables. On passe à l'étape suivante, les assemblées et les tester.
+
+== Objectifs pédagogiques
+
+* *Implémenter* les fonctionnalités en TDD
+* *Ecrire* des tests d'intégration
+
+== Étapes
+
+On garde l'approche TDD et on va implémenter les fonctionnalités suivantes (basées sur des fonctionnalités de bases) :
+
+* Prédiction des dépenses ; il faut utiliser l'analyse des dépenses messuelles et faire la moyenne sur les 6 derniers mois
+* Capacité d'épargne ; il faut utiliser la prédiction des dépenses sur 6 mois (3 mois de données minimum sinon erreur) et la moyenne des revenus sur les 12 derniers mois
+
+== Bonus
+
+Implémenter les pages de l'application (sans leur contenu) et naviguer avec le routeur.

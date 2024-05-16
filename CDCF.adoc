@@ -1,0 +1,69 @@
+= AutoBudget
+
+AutoBudget est une startup qui va révolutionner la gestion de budget des particuliers. Au travers de son application éponyme, AutoBudget permet de gérer son budget de manière automatique et intelligente. 
+
+Pour nous lancer, nous allons faire appel à plusieurs équipes de développement qui travailleront sur des parties différentes de l'application en parallèle. Nous avons une forte attente sur la qualité du code et de la robustesse de l'application.
+
+== Besoins fonctionnels frontend
+
+L'application se décompose en plusieurs parties :
+
+* La partie "Dashboard" qui permet de visualiser les dépenses et les revenus de l'utilisateur
+* La partie "Détails" qui permet de visualiser les détails des dépenses et des revenus de l'utilisateur
+* La partie "Ajout" qui permet d'ajouter des dépenses et des revenus à l'utilisateur
+
+== Besoins fonctionnels backend
+
+La partie backend sera une API qui permettra à l'application frontend de récupérer les données nécessaires à son fonctionnement. Elle devra permettre :
+
+* La connexion et l'inscription d'un utilisateur
+* La récupération des dépenses et des revenus d'un utilisateur
+* L'ajout d'une dépense ou d'un revenu à un utilisateur
+
+Par la suite elle se synchronisera directement avec les banques des utilisateurs pour récupérer les mouvements bancaires.
+
+== Besoins techniques
+
+* L'utilisation de tests automatisés est obligatoire
+* Le déploiement de l'application devra être automatisé
+* L'application frontend devra être développée en React + TS
+* L'application backend devra être développée en Node + TS
+* L'application backend devra utiliser une base de données PgSQL
+
+== Fonctionnalités
+
+=== Analyse annuelle des dépenses
+
+L'utilisateur doit pouvoir visualiser ses dépenses et ses revenus sur une année. L'analyse doit être faite mois par mois avec un pourcentage et un total par catégorie de dépense. Les pourcentages mouvements positifs doivent être dissociés des mouvements négatifs.
+
+=== Catégorisation automatique
+
+L'utilisateur doit pouvoir catégoriser automatiquement les mouvements bancaires. Pour cela, on se basera sur les règles suivantes :
+
+* Si le mouvement est négatif, et que le libellé contient "Logement/Loyer/Crédit/Remboursement" ou que le montant est compris entre 350€ à 1300€, alors la catégorie sera "Logement"
+* Si le mouvement est positif et supérieur à 1300€, alors la catégorie sera "Revenus"
+* Si le mouvement est négatif, et que le libellé contient "Alim/Producteur" ou un nom de chaîne de supermarché, alors la catégorie sera "Alimentation"
+* Si le libellé du mouvement contient "Carburant" ou un nom de service de transport (SNCF, RATP, TCL, etc.), alors la catégorie sera "Transport"
+* Si le mouvement est négatif, que le montant est inférieur à 350€ et que le libellé contient "Assu/Prlvt/Echéance/Eau/Elec/Gaz/Internet/Téléphone", alors la catégorie sera "Charges"
+* Si le mouvement est négatif, que le montant est inférieur à 350€ et que le libellé contient "Rest/Bar/Bras/Club/Sport/Musée", alors la catégorie sera "Loisirs"
+* Si le mouvement est négatif, et ne correspond à aucune des règles précédentes, alors la catégorie sera "Autres"
+
+Les seuils seront configurables par l'utilisateur et la liste des organismes seront récupérés via l'API dans la version finale.
+
+=== Calcul des revenus fiscaux
+
+L'utilisateur doit pouvoir calculer ses revenus fiscaux sur une année précise. Pour cela, on se basera sur la catégorie "Revenus" et sur la date du mouvement.
+
+=== Prédiction des dépenses
+
+L'utilisateur doit voir une prédiction de ses dépenses dans le mois en cours pour chaque catégorie. Pour cela, on se basera sur les dépenses mensuelles moyenne des 6 mois précédents.
+
+=== Calcul de capacité d'épargne
+
+L'utilisateur doit pouvoir calculer sa capacité d'épargne par mois en fonction de :
+
+* la moyenne de ses revenus sur l'année glissante
+* la prédiction de ses dépenses (point précédent)
+* les dépenses déjà effectuées dans le mois en cours
+
+Si la prédiction des dépenses est basée sur moins de 3 mois, car il n'y a pas de données, il faut retourner un message d'erreur.

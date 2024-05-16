@@ -1,0 +1,35 @@
+= Démarrage
+
+On va se créer le projet avec tout l'environnement nécessaire pour faire une première fonctionnalité en TDD, puis tout automatiser pour être safe par la suite. C'est notre ceinture anti apocalypse dans le monde du dev 😬
+
+== Objectifs pédagogiques
+
+* *Appliquer* le TDD
+
+== Étapes
+
+* Créer un projet avec un environnement de test
+* Implémenter la fonctionnalité "Analyse annuelle des dépenses par catégorie" en mode TDD
+* Ajouter une CI/CD avec les tests
+
+La fonction `getAnalyse` doit prendre en paramètre une liste de mouvements bancaires (données de tests dans `data.json`). Elle doit retourner un tableau associatif de ce type :
+
+```json
+{
+  "2023-12": {          // Année et mois
+    "Alimentation": {   // Catégorie
+      "amount": -352,   // Montant total pour l'alimentation
+      "percent": 35,    // Pourcentage de l'alimentation par rapport au total des dépenses
+      "elements": 5     // Nombre de mouvements bancaires pour l'alimentation
+    },
+    ...                 // Autres catégories
+  },
+  ...                   // Autres mois
+}
+```
+
+Il est possible de décomposer la fonctionnalité en plusieurs étapes :
+
+* Extraire les mouvements pour un date donnée
+* Extraire les mouvements pour une catégorie donnée
+* Analayser les mouvements pour une catégorie donnée

@@ -1,0 +1,20 @@
+= Préparation
+
+Pour répondre à l'appel à projet, il va falloir préparer notre projet. Au programme, une conception allégée, un plan de tests et une source de données de tests représentative.
+
+On se concentre uniquement sur le frontend car on gère bien React 💪. En plus qu'est-ce que ça à l'air compliqué de synchroniser son app avec les banques 😱
+
+== Objectifs pédagogiques
+
+* *Analyser* un besoin client
+* *Etablir* un plan de tests
+* *Construire* une source de données de tests
+
+== Étapes
+
+. Créer un diagramme de cas d'utilisation
+. Rédiger les user stories
+. Rédiger le plan de tests exhaustif des fonctionnalités du CDCF. 
+. Construire la source de données de tests qui permettra de tester les fonctionnalités d'analyse des mouvements antérieurs.
+
+Un plan de test doit lister toutes le fonctionnalités et cas d'utilisation, en détaillant les données d'entrée et de sortie, ainsi que les données de tests. Il doit également détailler les cas d'erreurs et les cas limites. Ne pas s'attarder sur la formalisation du plan de test, ni sur l'exhaustivité des fonctionnalités, mais plutôt la recherche des tests pertinents pour quelques fonctionnalités.

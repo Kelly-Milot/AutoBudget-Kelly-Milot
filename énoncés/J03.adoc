@@ -1,0 +1,20 @@
+= Tests unitaires
+
+On va pratiquer a fond les tests unitaires en décomposant bien tout et en testant chaque petit bout. Avec ça on ne laissera rien au hasard et en plus on réussira à coder des algos que l'on aurait jamais imaginé ! *T*op *D*ev *D*umonde 😁
+
+== Objectifs pédagogiques
+
+* *Implémenter* les fonctionnalités en TDD
+* *Implémenter* un code factorisé
+* *Ecrire* des tests unitaires
+
+== Étapes
+
+On se concentre sur 2 fonctionnalités dont la deuxième est plus compliquée :
+
+. Calcul des revenus fiscaux
+. Catégorisation automatique des mouvements bancaires
+
+Commencer par bien décomposer la fonctionnalité en sous-fonctionnalités et les implémenter une par une. Exemple : extraire uniquement les "Revenus" de la liste.
+
+Pour la catégorisation automatique, se concentrer surtout sur la robustesse du code et la factorisation plutôt que d'implémenter toutes les catégories.

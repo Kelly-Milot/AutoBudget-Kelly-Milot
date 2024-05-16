@@ -1,0 +1,23 @@
+= Mocking
+
+C'est pas beau de se mocking ! 😘 Aujourd'hui, on va faire semblant que le backend existe et simuler les appels à l'API. On pourra ensuite ajouter des fonctionnalités 🤓
+
+== Objectifs pédagogiques
+
+* Rendre son code testable
+* *Implémenter* les fonctionnalités en TDD
+
+== Étapes
+
+Ecrire les tests de l'api, puis implémenter, pour les fonctionnalités suivantes :
+
+* lecture de la liste des mouvements bancaires
+* ajout de mouvements bancaires
+
+La fonctionnalité d'ajout doit prendre en paramètres `Movement` partiel (montant, date et libellé, catégory). Elle fera un POST à l'API et retournera un objet contenant le mouvement ajouté et son id.
+
+On ne sait pas comment se comportera l'API, donc il faut juste tester qu'en cas de rejet on a bien une erreur.
+
+== Bonus
+
+Ajouter les fonctionnalités de suppression de mouvement et de modification de mouvement.

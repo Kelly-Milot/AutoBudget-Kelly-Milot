@@ -1,0 +1,32 @@
+= Tests end to end
+
+Tout ce qu'on a codé pour l'instant n'a pas d'UI. Baaaa let's go ! On va commencer à implémenter l'UI de notre application. Pour ça, on va utiliser [Cypress](https://www.cypress.io/), pour garder l'approche TDD même pour les tests end to end.
+
+== Objectifs pédagogiques
+
+* *Implémenter* les fonctionnalités en TDD
+* *Ecrire* des tests end to end
+
+== Étapes
+
+Ne pas s'embêter avec le style. Tout ce que l'on veut dans un premier temps, c'est un routeur qui nous permette de naviguer entre les différentes pages de l'application :
+
+* Dashboard : Tableau de bord regroupant l'analyse des dépenses, le calcul des revenus fiscaux et la capacité d'épargne mensuelle. Les routes menant au dashboard seront du type "/YYYY/MM" (ex: "/2020/01")
+* Mouvements bancaires : Liste des dépenses et revenus
+* Ajout d'un mouvement bancaire : Formulaire pour ajouter une dépense ou un revenu
+
+. Installer Cypress sur le repo
+. Ecrire les tests du routeur avec Cypress (et non react-testing-library)
+. Implémenter un Router
+. Écrire un test qui vérifie que le Dashboard s'affiche avec les données
+. Implémenter le Dashboard
+. Modifier la CI pour lancer les tests end to end
+
+⚠️ On n'a pas d'API, il va falloir tricher un peu et lire le fichier JSON depuis le composant Dashboard.
+
+== Bonus
+
+Implémenter les autres fonctionnalités :
+
+* Affichage liste des dépenses/revenus
+* Ajout d'une dépense/revenu
