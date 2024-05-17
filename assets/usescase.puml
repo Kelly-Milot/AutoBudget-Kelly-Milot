@@ -1,0 +1,19 @@
+@startuml usecase
+
+left to right direction
+
+actor "Visiteur" as Visitor
+actor "Utilisateur" as User
+
+
+usecase "Inscription" as uc1
+usecase "Connexion" as uc2
+usecase "Gestion des mouvements bancaires" as uc3
+usecase "Analyse des comptes" as uc4
+
+Visitor --> uc1
+User --> uc2
+User --> uc3
+User --> uc4
+
+@enduml

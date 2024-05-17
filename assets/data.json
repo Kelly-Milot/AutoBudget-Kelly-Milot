@@ -1,0 +1,699 @@
+[
+  {
+    "id": -1,
+    "date": "2024-01-01",
+    "label": "",
+    "amount": 1600,
+    "category": "Revenus"
+  },
+  {
+    "id": -1,
+    "date": "2023-12-01",
+    "label": "",
+    "amount": 1900,
+    "category": "Revenus"
+  },
+  {
+    "id": -1,
+    "date": "2023-11-01",
+    "label": "",
+    "amount": 1600,
+    "category": "Revenus"
+  },
+  {
+    "id": -1,
+    "date": "2023-10-03",
+    "label": "",
+    "amount": 1600,
+    "category": "Revenus"
+  },
+  {
+    "id": -1,
+    "date": "2023-09-01",
+    "label": "",
+    "amount": 1800,
+    "category": "Revenus"
+  },
+  {
+    "id": -1,
+    "date": "2023-08-01",
+    "label": "",
+    "amount": 1600,
+    "category": "Revenus"
+  },
+  {
+    "id": -1,
+    "date": "2023-07-03",
+    "label": "",
+    "amount": 1600,
+    "category": "Revenus"
+  },
+  {
+    "id": -1,
+    "date": "2023-06-01",
+    "label": "",
+    "amount": 1600,
+    "category": "Revenus"
+  },
+  {
+    "id": -1,
+    "date": "2023-05-01",
+    "label": "",
+    "amount": 1750,
+    "category": "Revenus"
+  },
+  {
+    "id": -1,
+    "date": "2023-04-03",
+    "label": "",
+    "amount": 1600,
+    "category": "Revenus"
+  },
+  {
+    "id": -1,
+    "date": "2023-03-01",
+    "label": "",
+    "amount": 1600,
+    "category": "Revenus"
+  },
+  {
+    "id": -1,
+    "date": "2023-02-01",
+    "label": "",
+    "amount": 1600,
+    "category": "Revenus"
+  },
+  {
+    "id": -1,
+    "date": "2023-01-03",
+    "label": "",
+    "amount": 1600,
+    "category": "Revenus"
+  },
+  {
+    "id": -1,
+    "date": "2022-12-01",
+    "label": "",
+    "amount": 1600,
+    "category": "Revenus"
+  },
+  {
+    "id": -1,
+    "date": "2022-11-01",
+    "label": "",
+    "amount": 1600,
+    "category": "Revenus"
+  },
+
+  {
+    "id": -1,
+    "date": "2023-12-10",
+    "label": "Assurance",
+    "amount": -100,
+    "category": "Charges"
+  },
+  {
+    "id": -1,
+    "date": "2023-12-08",
+    "label": "Électricité",
+    "amount": -80,
+    "category": "Charges"
+  },
+  {
+    "id": -1,
+    "date": "2023-12-05",
+    "label": "Internet",
+    "amount": -50,
+    "category": "Charges"
+  },
+  {
+    "id": -1,
+    "date": "2023-11-11",
+    "label": "Assurance",
+    "amount": -100,
+    "category": "Charges"
+  },
+  {
+    "id": -1,
+    "date": "2023-11-08",
+    "label": "Électricité",
+    "amount": -80,
+    "category": "Charges"
+  },
+  {
+    "id": -1,
+    "date": "2023-11-04",
+    "label": "Internet",
+    "amount": -50,
+    "category": "Charges"
+  },
+  {
+    "id": -1,
+    "date": "2023-10-10",
+    "label": "Assurance",
+    "amount": -100,
+    "category": "Charges"
+  },
+  {
+    "id": -1,
+    "date": "2023-10-09",
+    "label": "Électricité",
+    "amount": -80,
+    "category": "Charges"
+  },
+  {
+    "id": -1,
+    "date": "2023-10-05",
+    "label": "Internet",
+    "amount": -50,
+    "category": "Charges"
+  },
+  {
+    "id": -1,
+    "date": "2023-09-10",
+    "label": "Assurance",
+    "amount": -100,
+    "category": "Charges"
+  },
+  {
+    "id": -1,
+    "date": "2023-09-08",
+    "label": "Électricité",
+    "amount": -80,
+    "category": "Charges"
+  },
+  {
+    "id": -1,
+    "date": "2023-09-05",
+    "label": "Internet",
+    "amount": -50,
+    "category": "Charges"
+  },
+
+  {
+    "id": -1,
+    "date": "2023-12-05",
+    "label": "Loyer",
+    "amount": -500,
+    "category": "Logement"
+  },
+  {
+    "id": -1,
+    "date": "2023-11-05",
+    "label": "Loyer",
+    "amount": -500,
+    "category": "Logement"
+  },
+  {
+    "id": -1,
+    "date": "2023-10-05",
+    "label": "Loyer",
+    "amount": -500,
+    "category": "Logement"
+  },
+  {
+    "id": -1,
+    "date": "2023-09-05",
+    "label": "Loyer",
+    "amount": -500,
+    "category": "Logement"
+  },
+  {
+    "id": -1,
+    "date": "2023-08-05",
+    "label": "Loyer",
+    "amount": -500,
+    "category": "Logement"
+  },
+  {
+    "id": -1,
+    "date": "2023-07-05",
+    "label": "Loyer",
+    "amount": -500,
+    "category": "Logement"
+  },
+  {
+    "id": -1,
+    "date": "2023-06-05",
+    "label": "Loyer",
+    "amount": -500,
+    "category": "Logement"
+  },
+  {
+    "id": -1,
+    "date": "2023-05-05",
+    "label": "Loyer",
+    "amount": -500,
+    "category": "Logement"
+  },
+  {
+    "id": -1,
+    "date": "2023-04-05",
+    "label": "Loyer",
+    "amount": -500,
+    "category": "Logement"
+  },
+  {
+    "id": -1,
+    "date": "2023-03-05",
+    "label": "Loyer",
+    "amount": -500,
+    "category": "Logement"
+  },
+  {
+    "id": -1,
+    "date": "2023-02-05",
+    "label": "Loyer",
+    "amount": -500,
+    "category": "Logement"
+  },
+  {
+    "id": -1,
+    "date": "2023-01-05",
+    "label": "Loyer",
+    "amount": -500,
+    "category": "Logement"
+  },
+
+  {
+    "id": -1,
+    "date": "2023-01-01",
+    "label": "Alimentation",
+    "amount": -20,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-01-02",
+    "label": "Loisirs",
+    "amount": -50,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-01-03",
+    "label": "Autres",
+    "amount": -30,
+    "category": "Autres"
+  },
+  {
+    "id": -1,
+    "date": "2023-01-04",
+    "label": "Alimentation",
+    "amount": -40,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-01-05",
+    "label": "Loisirs",
+    "amount": -60,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-02-01",
+    "label": "Alimentation",
+    "amount": -25,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-02-02",
+    "label": "Loisirs",
+    "amount": -45,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-02-03",
+    "label": "Autres",
+    "amount": -35,
+    "category": "Autres"
+  },
+  {
+    "id": -1,
+    "date": "2023-02-04",
+    "label": "Alimentation",
+    "amount": -55,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-02-05",
+    "label": "Loisirs",
+    "amount": -65,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-03-01",
+    "label": "Alimentation",
+    "amount": -22,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-03-02",
+    "label": "Loisirs",
+    "amount": -48,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-03-03",
+    "label": "Autres",
+    "amount": -33,
+    "category": "Autres"
+  },
+  {
+    "id": -1,
+    "date": "2023-03-04",
+    "label": "Alimentation",
+    "amount": -42,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-03-05",
+    "label": "Loisirs",
+    "amount": -63,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-04-01",
+    "label": "Alimentation",
+    "amount": -23,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-04-02",
+    "label": "Loisirs",
+    "amount": -47,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-04-03",
+    "label": "Autres",
+    "amount": -37,
+    "category": "Autres"
+  },
+  {
+    "id": -1,
+    "date": "2023-04-04",
+    "label": "Alimentation",
+    "amount": -44,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-04-05",
+    "label": "Loisirs",
+    "amount": -68,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-05-01",
+    "label": "Alimentation",
+    "amount": -21,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-05-02",
+    "label": "Loisirs",
+    "amount": -49,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-05-03",
+    "label": "Autres",
+    "amount": -32,
+    "category": "Autres"
+  },
+  {
+    "id": -1,
+    "date": "2023-05-04",
+    "label": "Alimentation",
+    "amount": -43,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-05-05",
+    "label": "Loisirs",
+    "amount": -67,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-06-01",
+    "label": "Alimentation",
+    "amount": -24,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-06-02",
+    "label": "Loisirs",
+    "amount": -46,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-06-03",
+    "label": "Autres",
+    "amount": -36,
+    "category": "Autres"
+  },
+  {
+    "id": -1,
+    "date": "2023-06-04",
+    "label": "Alimentation",
+    "amount": -41,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-06-05",
+    "label": "Loisirs",
+    "amount": -66,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-07-01",
+    "label": "Alimentation",
+    "amount": -26,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-07-02",
+    "label": "Loisirs",
+    "amount": -44,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-07-03",
+    "label": "Autres",
+    "amount": -34,
+    "category": "Autres"
+  },
+  {
+    "id": -1,
+    "date": "2023-07-04",
+    "label": "Alimentation",
+    "amount": -39,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-07-05",
+    "label": "Loisirs",
+    "amount": -64,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-08-01",
+    "label": "Alimentation",
+    "amount": -27,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-08-02",
+    "label": "Loisirs",
+    "amount": -43,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-08-03",
+    "label": "Autres",
+    "amount": -38,
+    "category": "Autres"
+  },
+  {
+    "id": -1,
+    "date": "2023-08-04",
+    "label": "Alimentation",
+    "amount": -38,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-08-05",
+    "label": "Loisirs",
+    "amount": -62,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-09-01",
+    "label": "Alimentation",
+    "amount": -28,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-09-02",
+    "label": "Loisirs",
+    "amount": -42,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-09-03",
+    "label": "Autres",
+    "amount": -39,
+    "category": "Autres"
+  },
+  {
+    "id": -1,
+    "date": "2023-09-04",
+    "label": "Alimentation",
+    "amount": -37,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-09-05",
+    "label": "Loisirs",
+    "amount": -61,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-10-01",
+    "label": "Alimentation",
+    "amount": -29,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-10-02",
+    "label": "Loisirs",
+    "amount": -41,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-10-03",
+    "label": "Autres",
+    "amount": -40,
+    "category": "Autres"
+  },
+  {
+    "id": -1,
+    "date": "2023-10-04",
+    "label": "Alimentation",
+    "amount": -36,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-10-05",
+    "label": "Loisirs",
+    "amount": -60,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-11-01",
+    "label": "Alimentation",
+    "amount": -30,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-11-02",
+    "label": "Loisirs",
+    "amount": -40,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-11-03",
+    "label": "Autres",
+    "amount": -41,
+    "category": "Autres"
+  },
+  {
+    "id": -1,
+    "date": "2023-11-04",
+    "label": "Alimentation",
+    "amount": -35,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-11-05",
+    "label": "Loisirs",
+    "amount": -59,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-12-01",
+    "label": "Alimentation",
+    "amount": -31,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-12-02",
+    "label": "Loisirs",
+    "amount": -39,
+    "category": "Loisirs"
+  },
+  {
+    "id": -1,
+    "date": "2023-12-03",
+    "label": "Autres",
+    "amount": -42,
+    "category": "Autres"
+  },
+  {
+    "id": -1,
+    "date": "2023-12-04",
+    "label": "Alimentation",
+    "amount": -34,
+    "category": "Alimentation"
+  },
+  {
+    "id": -1,
+    "date": "2023-12-05",
+    "label": "Loisirs",
+    "amount": -58,
+    "category": "Loisirs"
+  }
+
+]

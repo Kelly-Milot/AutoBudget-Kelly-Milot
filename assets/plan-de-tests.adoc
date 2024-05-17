@@ -1,0 +1,176 @@
+= Plan de tests
+
+== Inscription
+
+[cols="2,2,2,1",options="header"]
+|===
+|Test|Procédure|Résultat attendu|Statut
+
+|avec des données valides
+|L'utilisateur entre un email valide et un mot de passe valide
+|L'utilisateur est redirigé vers la page d'accueil
+|🟢
+
+|avec un email déjà utilisé
+|L'utilisateur entre un email déjà utilisé et un mot de passe valide
+|L'utilisateur reçoit un message d'erreur
+|🔴
+
+|avec un email invalide
+|L'utilisateur entre un email invalide et un mot de passe valide
+|L'utilisateur reçoit un message d'erreur
+|🔴
+
+|===
+
+== Connexion
+
+[cols="2,2,2,1",options="header"]
+|===
+|Test|Procédure|Résultat attendu|Statut
+
+|avec des données valides
+|L'utilisateur entre un email valide et un mot de passe valide
+|L'utilisateur est redirigé vers la page d'accueil
+|🟢
+
+|avec un email invalide
+|L'utilisateur entre un email invalide
+|L'utilisateur reçoit un message d'erreur
+|🔴
+
+|avec un mot de passe invalide
+|L'utilisateur entre un email valide et un mot de passe invalide
+|L'utilisateur reçoit un message d'erreur
+|🔴
+
+|===
+
+== Liste des mouvements bancaires
+
+[cols="2,2,2,1",options="header"]
+|===
+|Test|Procédure|Résultat attendu|Statut
+
+|récupère un tableau de mouvements bancaires
+|L'utilisateur a des mouvements bancaires
+|L'utilisateur reçoit un tableau de mouvements bancaires
+|🟢
+
+|récupère un tableau vide
+|L'utilisateur n'a pas de mouvement bancaire
+|L'utilisateur reçoit un message d'erreur
+|🔴
+
+|===
+
+== Catégorisation automatique
+
+Si le mouvement est positif et supérieur à 1300€, alors la catégorie sera "Revenus".
+
+[cols="2,1,2,1",options="header"]
+|===
+|Test|Montant|Libellé|Catégorie attendue
+
+|Ajout d'une dépense
+|-10€
+|--
+|❌ Revenus
+
+|Ajout d'une rentrée de 600€
+|600€
+|--
+|❌ Revenus
+
+|Ajout d'une rentrée de 1600€
+|1600€
+|--
+|🆗 Revenus
+
+|Ajout d'une rentrée de 1300€
+|1300€
+|--
+|❌ Revenus
+
+|===
+
+Si le mouvement est négatif, et que le libellé contient "Logement/Loyer/Crédit/Remboursement" ou que le montant est compris entre 350€ à 1300€, alors la catégorie sera "Logement".
+
+[cols="2,1,2,1",options="header"]
+|===
+|Test|Montant|Libellé|Catégorie attendue
+
+|Ajout d'une dépense de 10€
+|-10€
+|--
+|❌ Logement
+
+|Ajout d'un loyer de 10€
+|-10€
+|"xxx Loyer xxx"
+|❌ Logement
+
+|Ajout d'un loyer de 350€
+|-350€
+|"xxx Loyer xxx"
+|❌ Logement
+
+|Ajout d'un loyer de 1300€
+|-1300€
+|"xxx Loyer xxx"
+|❌ Logement
+
+|Ajout d'un loyer de 700€
+|-700€
+|"xxx Loyer xxx"
+|🆗 Logement
+
+|Ajout d'un crédit de 1150€
+|-1150€
+|"xxx Crédit xxx"
+|🆗 Logement
+
+|Ajout d'un credit de 1150€
+|-1150€
+|"xxx credit xxx"
+|🆗 Logement
+
+|Ajout d'un revenu de 1150€ avec un libellé contenant "Crédit"
+|1150€
+|"xxx Crédit xxx"
+|❌ Logement
+
+|===
+
+Si le libellé du mouvement contient "Carburant" ou un nom de service de transport (SNCF, RATP, TCL, etc.), alors la catégorie sera "Transport"
+
+[cols="2,1,2,1",options="header"]
+|===
+|Test|Montant|Libellé|Catégorie attendue
+
+|Ajout d'une dépense avec libellé carburant
+|-30€
+|"xxx carburant xxx"
+|🆗 Transport
+
+|Ajout d'une dépense avec libellé Carburant
+|-50€
+|"xxx Carburant xxx"
+|🆗 Transport
+
+|Ajout d'une dépense avec libellé SNCF
+|-150€
+|"xxx SNCF xxx"
+|🆗 Transport
+
+|Ajout d'un remboursement avec libellé SNCF
+|150€
+|"xxx SNCF xxx"
+|🆗 Transport
+
+|Ajout d'une dépense avec libellé voyage
+|-200€
+|"xxx voyage xxx"
+|❌ Transport
+
+|===

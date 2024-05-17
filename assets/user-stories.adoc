@@ -1,0 +1,14 @@
+En tant que *visiteur* je peux m'inscrire sur l'application.
+En tant qu'*utilisateur* je peux me connecter à l'application.
+En tant qu'*utilisateur* je peux me déconnecter de l'application.
+En tant qu'*utilisateur* je veux voir la liste des mouvements bancaires.
+En tant qu'*utilisateur* je veux pouvoir ajouter un mouvement bancaire.
+En tant qu'*utilisateur* je veux pouvoir modifier la catégorie affectée automatiquement à un mouvement bancaire.
+En tant qu'*utilisateur* je veux voir le tableau de bord de mes comptes.
+En tant qu'*utilisateur* je veux analyser mes dépenses par catégorie.
+En tant qu'*utilisateur* je veux analyser mes dépenses par mois.
+En tant qu'*utilisateur* je veux analyser mes dépenses par catégorie et par mois.
+En tant qu'*utilisateur* je veux connaître le montant de mes revenus fiscaux sur une année.
+En tant qu'*utilisateur* je veux connaître le prévisionnel de mes dépenses sur le reste du mois.
+En tant qu'*utilisateur* je veux connaître ma capacité d'épargne pour le mois en cours.
+En tant qu'*utilisateur* je veux connaître ma capacité d'épargne pour l'année glissante.
