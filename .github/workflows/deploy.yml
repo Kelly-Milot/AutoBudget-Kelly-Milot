@@ -1,7 +1,7 @@
 name: Deploy
 
 on:
-  push: "main"
+  push: "master"
 
 concurrency:
   group: "deploy"
