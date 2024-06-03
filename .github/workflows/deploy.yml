@@ -11,7 +11,7 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    default:
+    defaults:
       shell: bash
       working-directory: /projet/frontend
     steps:
