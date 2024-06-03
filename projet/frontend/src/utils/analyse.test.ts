@@ -8,7 +8,7 @@ describe('Bank analysis', () => {
     const keys = Object.keys(getAnalyse(movementsData));
 
     expect(keys.length).toBeGreaterThan(0);
-    expect(keys[0]).toMatch(/\d{4}-\d{2}/);
+    expect(keys[0]).toMatch(/\d{4}-\d{2}$/);
   });
 
   it('should return all categories as key', () => {
