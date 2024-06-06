@@ -7,10 +7,10 @@ type AnalyseByCategory = {
   percent: number;
   elements: number;
 };
-type AnalyseByMonth = {
+export type AnalyseByMonth = {
   [category: string]: AnalyseByCategory
 }
-type Analyse = {
+export type Analyse = {
   [date: string]: AnalyseByMonth
 }
 
