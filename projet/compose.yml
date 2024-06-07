@@ -9,3 +9,15 @@ services:
       - 5173:5173
     working_dir: /frontend
     command: npm run setup
+
+  cypress:
+    image: cypress/included:13.11.0
+    #build: ./end2end
+    working_dir: /app
+    volumes:
+      - ./end2end:/app
+    environment:
+      - CYPRESS_BASE_URL=http://frontend:5173
+    depends_on:
+      - frontend
+    command: npx cypress run

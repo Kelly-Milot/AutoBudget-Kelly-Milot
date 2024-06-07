@@ -33,7 +33,7 @@ describe('Fiscal analysis', () => {
         expect(result).toEqual(1600);
     })
 
-    it('should equals to 19850 for 2024', () => {
+    it('should equals to 19850 for 2023', () => {
         const result = getAmountByYear(movementsData, 2023);
         expect(result).toEqual(19850);
     })
