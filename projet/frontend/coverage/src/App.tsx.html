@@ -25,7 +25,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">0% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>0/35</span>
+                <span class='fraction'>0/39</span>
             </div>
         
             
@@ -46,7 +46,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">0% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>0/35</span>
+                <span class='fraction'>0/39</span>
             </div>
         
             
@@ -98,7 +98,11 @@
 <a name='L33'></a><a href='#L33'>33</a>
 <a name='L34'></a><a href='#L34'>34</a>
 <a name='L35'></a><a href='#L35'>35</a>
-<a name='L36'></a><a href='#L36'>36</a></td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a></td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
@@ -133,36 +137,44 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js"><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="branch-0 cbranch-no" title="branch not covered" >import { useState } from 'react'</span></span></span>
-<span class="cstat-no" title="statement not covered" >import reactLogo from './assets/react.svg'</span>
-<span class="cstat-no" title="statement not covered" >import viteLogo from '/vite.svg'</span>
-<span class="cstat-no" title="statement not covered" >import './App.css'</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js"><span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" ><span class="branch-0 cbranch-no" title="branch not covered" >import './App.css'</span></span></span>
+<span class="cstat-no" title="statement not covered" >import { Link, Route, Routes } from 'react-router-dom'</span>
+<span class="cstat-no" title="statement not covered" >import Dashboard from './routes/Dashboard'</span>
+<span class="cstat-no" title="statement not covered" >import List from './routes/List'</span>
+<span class="cstat-no" title="statement not covered" >import Add from './routes/Add'</span>
+<span class="cstat-no" title="statement not covered" >import NotFound from './routes/NotFound'</span>
 <span class="cstat-no" title="statement not covered" ></span>
 <span class="cstat-no" title="statement not covered" >function App() {</span>
-<span class="cstat-no" title="statement not covered" >  const [count, setCount] = useState(0)</span>
-<span class="cstat-no" title="statement not covered" ></span>
 <span class="cstat-no" title="statement not covered" >  return (</span>
 <span class="cstat-no" title="statement not covered" >    &lt;&gt;</span>
-<span class="cstat-no" title="statement not covered" >      &lt;div&gt;</span>
-<span class="cstat-no" title="statement not covered" >        &lt;a href="https://vitejs.dev" target="_blank"&gt;</span>
-<span class="cstat-no" title="statement not covered" >          &lt;img src={viteLogo} className="logo" alt="Vite logo" /&gt;</span>
-<span class="cstat-no" title="statement not covered" >        &lt;/a&gt;</span>
-<span class="cstat-no" title="statement not covered" >        &lt;a href="https://react.dev" target="_blank"&gt;</span>
-<span class="cstat-no" title="statement not covered" >          &lt;img src={reactLogo} className="logo react" alt="React logo" /&gt;</span>
-<span class="cstat-no" title="statement not covered" >        &lt;/a&gt;</span>
-<span class="cstat-no" title="statement not covered" >      &lt;/div&gt;</span>
-<span class="cstat-no" title="statement not covered" >      &lt;h1&gt;Vite + React&lt;/h1&gt;</span>
-<span class="cstat-no" title="statement not covered" >      &lt;div className="card"&gt;</span>
-<span class="cstat-no" title="statement not covered" >        &lt;button onClick={() =&gt; setCount((count) =&gt; count + 1)}&gt;</span>
-<span class="cstat-no" title="statement not covered" >          count is {count}</span>
-<span class="cstat-no" title="statement not covered" >        &lt;/button&gt;</span>
-<span class="cstat-no" title="statement not covered" >        &lt;p&gt;</span>
-<span class="cstat-no" title="statement not covered" >          Edit &lt;code&gt;src/App.tsx&lt;/code&gt; and save to test HMR</span>
-<span class="cstat-no" title="statement not covered" >        &lt;/p&gt;</span>
-<span class="cstat-no" title="statement not covered" >      &lt;/div&gt;</span>
-<span class="cstat-no" title="statement not covered" >      &lt;p className="read-the-docs"&gt;</span>
-<span class="cstat-no" title="statement not covered" >        Click on the Vite and React logos to learn more</span>
-<span class="cstat-no" title="statement not covered" >      &lt;/p&gt;</span>
+<span class="cstat-no" title="statement not covered" >      &lt;header&gt;</span>
+<span class="cstat-no" title="statement not covered" >        &lt;h1&gt;Best budget&lt;/h1&gt;</span>
+<span class="cstat-no" title="statement not covered" >      &lt;/header&gt;</span>
+<span class="cstat-no" title="statement not covered" ></span>
+<span class="cstat-no" title="statement not covered" >      &lt;nav&gt;</span>
+<span class="cstat-no" title="statement not covered" >        &lt;ul&gt;</span>
+<span class="cstat-no" title="statement not covered" >          &lt;li&gt;</span>
+<span class="cstat-no" title="statement not covered" >            &lt;Link to="/2023/12"&gt;Dashboard 2023-12&lt;/Link&gt;</span>
+<span class="cstat-no" title="statement not covered" >          &lt;/li&gt;</span>
+<span class="cstat-no" title="statement not covered" >          &lt;li&gt;</span>
+<span class="cstat-no" title="statement not covered" >            &lt;Link to="/list"&gt;Liste des mouvements&lt;/Link&gt;</span>
+<span class="cstat-no" title="statement not covered" >          &lt;/li&gt;</span>
+<span class="cstat-no" title="statement not covered" >          &lt;li&gt;</span>
+<span class="cstat-no" title="statement not covered" >            &lt;Link to="/add"&gt;Ajouter un mouvement&lt;/Link&gt;</span>
+<span class="cstat-no" title="statement not covered" >          &lt;/li&gt;</span>
+<span class="cstat-no" title="statement not covered" >        &lt;/ul&gt;</span>
+<span class="cstat-no" title="statement not covered" >      &lt;/nav&gt;</span>
+<span class="cstat-no" title="statement not covered" ></span>
+<span class="cstat-no" title="statement not covered" >      &lt;Routes&gt;</span>
+<span class="cstat-no" title="statement not covered" >        &lt;Route path="/:year/:month" element={&lt;Dashboard /&gt;} /&gt;</span>
+<span class="cstat-no" title="statement not covered" >        &lt;Route path="/list" element={&lt;List /&gt;} /&gt;</span>
+<span class="cstat-no" title="statement not covered" >        &lt;Route path="/add" element={&lt;Add /&gt;} /&gt;</span>
+<span class="cstat-no" title="statement not covered" >        &lt;Route path="*" element={&lt;NotFound /&gt;} /&gt;</span>
+<span class="cstat-no" title="statement not covered" >      &lt;/Routes&gt;</span>
 <span class="cstat-no" title="statement not covered" >    &lt;/&gt;</span>
 <span class="cstat-no" title="statement not covered" >  )</span>
 <span class="cstat-no" title="statement not covered" >}</span>
@@ -175,7 +187,7 @@
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2024-06-05T08:00:56.017Z
+                at 2025-06-23T14:31:55.919Z
             </div>
         <script src="../prettify.js"></script>
         <script>
